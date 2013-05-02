@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Cmd::Release::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Cmd::Release::VERSION = '0.001';
+  $Escort::Cmd::Release::VERSION = '0.002';
 }
+# ABSTRACT: TODO
 
 use MooX Options => [ protect_argv => 0 ];
 with qw( Escort::Cmd );
@@ -41,11 +42,11 @@ __END__
 
 =head1 NAME
 
-Escort::Cmd::Release
+Escort::Cmd::Release - TODO
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Cmd::Get::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Cmd::Get::VERSION = '0.001';
+  $Escort::Cmd::Get::VERSION = '0.002';
 }
+# ABSTRACT: Get a specific distribution version (fetched via MetaCPAN)
 
 use MooX Options => [ protect_argv => 0 ];
 with qw( Escort::Cmd );
@@ -73,11 +74,11 @@ __END__
 
 =head1 NAME
 
-Escort::Cmd::Get
+Escort::Cmd::Get - Get a specific distribution version (fetched via MetaCPAN)
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

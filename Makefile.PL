@@ -32,6 +32,7 @@ my %WriteMakefileArgs = (
     "JSON" => "2.57",
     "LWP::Simple" => "6.00",
     "Moo" => "1.001000",
+    "MooX" => "0.101",
     "MooX::Cmd" => "0.003",
     "MooX::Options" => "3.80",
     "Path::Class" => "0.32",
@@ -44,7 +45,7 @@ my %WriteMakefileArgs = (
     "Test::LoadAllModules" => "0.021",
     "Test::More" => "0.96"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

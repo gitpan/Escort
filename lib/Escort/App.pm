@@ -3,8 +3,9 @@ BEGIN {
   $Escort::App::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::App::VERSION = '0.001';
+  $Escort::App::VERSION = '0.002';
 }
+# ABSTRACT: Base class for the command line application
 
 use Moo;
 use MooX::Options;
@@ -88,11 +89,11 @@ __END__
 
 =head1 NAME
 
-Escort::App
+Escort::App - Base class for the command line application
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

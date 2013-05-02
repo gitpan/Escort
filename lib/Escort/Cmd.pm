@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Cmd::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Cmd::VERSION = '0.001';
+  $Escort::Cmd::VERSION = '0.002';
 }
+# ABSTRACT: Role for commands of escort
 
 use Moo::Role;
 
@@ -35,11 +36,11 @@ __END__
 
 =head1 NAME
 
-Escort::Cmd
+Escort::Cmd - Role for commands of escort
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

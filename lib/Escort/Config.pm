@@ -3,7 +3,7 @@ BEGIN {
   $Escort::Config::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Config::VERSION = '0.001';
+  $Escort::Config::VERSION = '0.002';
 }
 # ABSTRACT: Config loading class
 
@@ -73,7 +73,7 @@ Escort::Config - Config loading class
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Cmd::Sync::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Cmd::Sync::VERSION = '0.001';
+  $Escort::Cmd::Sync::VERSION = '0.002';
 }
+# ABSTRACT: Command for syncing to remote targets
 
 use MooX Options => [ protect_argv => 0 ];
 with qw( Escort::Cmd );
@@ -29,11 +30,11 @@ __END__
 
 =head1 NAME
 
-Escort::Cmd::Sync
+Escort::Cmd::Sync - Command for syncing to remote targets
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

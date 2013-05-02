@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Sync::SSH::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Sync::SSH::VERSION = '0.001';
+  $Escort::Sync::SSH::VERSION = '0.002';
 }
+# ABSTRACT: Syncing to a remote SSH target
 
 use Moo;
 with qw( Escort::Sync );
@@ -21,11 +22,11 @@ __END__
 
 =head1 NAME
 
-Escort::Sync::SSH
+Escort::Sync::SSH - Syncing to a remote SSH target
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

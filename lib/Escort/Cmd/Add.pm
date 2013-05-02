@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Cmd::Add::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Cmd::Add::VERSION = '0.001';
+  $Escort::Cmd::Add::VERSION = '0.002';
 }
+# ABSTRACT: Simple command to add given distributions 
 
 use MooX Options => [ protect_argv => 0 ];
 with qw( Escort::Cmd );
@@ -40,11 +41,11 @@ __END__
 
 =head1 NAME
 
-Escort::Cmd::Add
+Escort::Cmd::Add - Simple command to add given distributions 
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Sync::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Sync::VERSION = '0.001';
+  $Escort::Sync::VERSION = '0.002';
 }
+# ABSTRACT: Role for sync target types
 
 use Moo::Role;
 use DateTime;
@@ -65,11 +66,11 @@ __END__
 
 =head1 NAME
 
-Escort::Sync
+Escort::Sync - Role for sync target types
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

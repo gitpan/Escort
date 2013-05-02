@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Cmd::Server::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Cmd::Server::VERSION = '0.001';
+  $Escort::Cmd::Server::VERSION = '0.002';
 }
+# ABSTRACT: Command for starting an independent webserver to use the repositories
 
 use MooX Options => [ protect_argv => 0 ];
 with qw( Escort::Cmd );
@@ -45,11 +46,11 @@ __END__
 
 =head1 NAME
 
-Escort::Cmd::Server
+Escort::Cmd::Server - Command for starting an independent webserver to use the repositories
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

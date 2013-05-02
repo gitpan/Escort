@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Cmd::Surveyor::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Cmd::Surveyor::VERSION = '0.001';
+  $Escort::Cmd::Surveyor::VERSION = '0.002';
 }
+# ABSTRACT: Command for getting packages from a given library directory
 
 use MooX Options => [ protect_argv => 0 ];
 with qw( Escort::Cmd );
@@ -29,11 +30,11 @@ __END__
 
 =head1 NAME
 
-Escort::Cmd::Surveyor
+Escort::Cmd::Surveyor - Command for getting packages from a given library directory
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 

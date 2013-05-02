@@ -3,8 +3,20 @@ Changes from 1739-07-19 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.001 at 2013-05-02 12:05:49 +0000
+version 0.002 at 2013-05-02 12:57:22 +0000
 ------------------------------------------
+
+  Change: 91caa408b5c7eda75cbad28d340b3d759c26491f
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-05-02 08:56:26 +0000
+
+    More ABSTRACT 
+
+  Change: 7f4e02fe5ea1e197dfffd418b8273d57f6962638
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-05-02 08:50:07 +0000
+
+    Missing requirement 
 
   Change: f2ca123dcbb031756e41c58a574316604371802c
   Author: Torsten Raudssus <torsten@raudss.us>

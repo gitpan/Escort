@@ -3,8 +3,9 @@ BEGIN {
   $Escort::Web::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Web::VERSION = '0.001';
+  $Escort::Web::VERSION = '0.002';
 }
+# ABSTRACT: Web::Simple Web application for escort server
 
 use Moo;
 use Web::Simple;
@@ -62,11 +63,11 @@ __END__
 
 =head1 NAME
 
-Escort::Web
+Escort::Web - Web::Simple Web application for escort server
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 AUTHOR
 
