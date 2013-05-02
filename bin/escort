@@ -1,0 +1,106 @@
+#!/usr/bin/env perl
+# PODNAME: escort
+# ABSTRACT: client for managing local or remote private CPAN repositories
+
+$|=1;
+
+use strict;
+use warnings;
+use Escort::App;
+
+exit Escort::App->new_with_cmd;
+
+__END__
+
+=pod
+
+=head1 NAME
+
+escort - client for managing local or remote private CPAN repositories
+
+=head1 VERSION
+
+version 0.001
+
+=head1 SYNOPSIS
+
+  escort [options] commands [command options] command parameter 
+
+=head1 DESCRIPTION
+
+=head1 OPTIONS
+
+=head2 B<--root>
+
+Root of your CPAN directory
+
+=head2 B<--config_file>
+
+Use this file, instead of the B<.escort.yml> inside the CPAN directory.
+
+=head1 COMMANDS
+
+=head2 B<add> Dist-0.001.tar.gz Other-Dist-0.002.zip
+
+Adding several distributions to your CPAN. It takes the distributions for
+adding as parameter.
+
+=head2 B<server>
+
+Starts up a webserver for accessing your CPAN.
+
+=head3 B<--listen>
+
+By default it listens to port 80 on all IPs, you can give another value here,
+in form of B<HOST:PORT>, B<:PORT> or B</var/run/socket.file>.
+
+=head2 B<surveyor> $HOME/perl5/perlbrew/perls/perl-5.16.3/lib/site_perl/5.16.3
+
+B<[TODO]> Generates CPAN from given lib directory. See L<Dist::Surveyor> for
+further informations about this feature.
+
+=head2 B<release>
+
+B<[TODO]> Add current directory with given Dist-Name.
+
+=head1 GENERAL COMMAND OPTIONS
+
+B<add>, B<surveyor> and B<release> take the following optional options:
+
+=head2 B<--seat>
+
+Defines the Sub-CPAN for the specific action, if not given the root repository
+will be used
+
+=head2 B<--author>
+
+Do the specific action as the specific author identification on your CPAN
+
+=head1 SEE ALSO
+
+L<Escort>
+
+L<Escort::App>
+
+L<Escort::Cmd::Add>
+
+L<Escort::Cmd::Get>
+
+L<Escort::Cmd::Server>
+
+L<Escort::Cmd::Surveyor>
+
+L<Escort::Cmd::Release>
+
+=head1 AUTHOR
+
+Torsten Raudssus <torsten@raudss.us>
+
+=head1 COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2013 by Raudssus Social Software.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
+
+=cut
