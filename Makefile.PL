@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.30;
 
 my %WriteMakefileArgs = (
   "ABSTRACT" => "Base class for an escort managed repository",
-  "AUTHOR" => "Torsten Raudssus <torsten\@raudss.us>",
+  "AUTHOR" => "Torsten Raudssus <torsten\@raudss.us> L<https://raudss.us/>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
@@ -39,13 +39,14 @@ my %WriteMakefileArgs = (
     "Plack" => "1.0024",
     "Starman" => "0.3011",
     "URI" => "1.60",
-    "Web::Simple" => "0.020"
+    "Web::Simple" => "0.020",
+    "YAML" => 0
   },
   "TEST_REQUIRES" => {
     "Test::LoadAllModules" => "0.021",
     "Test::More" => "0.96"
   },
-  "VERSION" => "0.002",
+  "VERSION" => "0.003",
   "test" => {
     "TESTS" => "t/*.t"
   }

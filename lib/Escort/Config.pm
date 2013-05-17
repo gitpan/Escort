@@ -3,7 +3,7 @@ BEGIN {
   $Escort::Config::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Config::VERSION = '0.002';
+  $Escort::Config::VERSION = '0.003';
 }
 # ABSTRACT: Config loading class
 
@@ -40,6 +40,10 @@ our %defaults = (
 	seattree_use_root => 0,
 	use_host_only => 1,
 	auto_generate => 1,
+	fillup_with_cpan => 0,
+	extract_distribution => 1,
+	generate_documentation => 0,
+	default_author => 'CPAN',
 	upload_htpasswd => undef,
 	upload_password => undef,
 );
@@ -64,7 +68,6 @@ for my $attr (keys %defaults) {
 1;
 
 __END__
-
 =pod
 
 =head1 NAME
@@ -73,17 +76,18 @@ Escort::Config - Config loading class
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 
-Torsten Raudssus <torsten@raudss.us>
+Torsten Raudssus <torsten@raudss.us> L<https://raudss.us/>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Raudssus Social Software.
+This software is copyright (c) 2013 by L<Raudssus Social Software|https://raudss.us/>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
+

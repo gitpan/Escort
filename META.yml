@@ -1,14 +1,14 @@
 ---
 abstract: 'Base class for an escort managed repository'
 author:
-  - 'Torsten Raudssus <torsten@raudss.us>'
+  - 'Torsten Raudssus <torsten@raudss.us> L<https://raudss.us/>'
 build_requires:
   Test::LoadAllModules: 0.021
   Test::More: 0.96
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.130880'
+generated_by: 'Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -33,13 +33,14 @@ requires:
   Starman: 0.3011
   URI: 1.60
   Web::Simple: 0.020
+  YAML: 0
 resources:
   homepage: https://github.com/Getty/p5-escort
   repository: https://github.com/Getty/p5-escort.git
-version: 0.002
+version: 0.003
 x_Dist_Zilla:
   perl:
-    version: 5.016003
+    version: 5.014002
   plugins:
     -
       class: Dist::Zilla::Plugin::GatherDir
@@ -128,7 +129,7 @@ x_Dist_Zilla:
     -
       class: Dist::Zilla::Plugin::TravisCI
       name: '@Author::GETTY/TravisCI'
-      version: 0.001
+      version: 0.003
     -
       class: Dist::Zilla::Plugin::InstallRelease
       name: '@Author::GETTY/InstallRelease'

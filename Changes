@@ -1,10 +1,34 @@
 ==================================================
-Changes from 1739-07-19 00:00:00 +0000 to present.
+Changes from 1739-08-03 00:00:00 +0000 to present.
 ==================================================
 
 ------------------------------------------
-version 0.002 at 2013-05-02 12:57:22 +0000
+version 0.003 at 2013-05-17 03:24:45 +0000
 ------------------------------------------
+
+  Change: 2a370691611cb8a2b4a392413e200722c56b020f
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-05-17 05:24:16 +0000
+
+    Added missing YAML requirement 
+
+  Change: 536e52fa12ffadd89fa96fefd35584b1447e5877
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-05-03 01:15:48 +0000
+
+    No idea what happened..... fixed 
+
+  Change: 8c979226787112c244c990485f6edc00e26e6002
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-05-03 01:00:22 +0000
+
+    Just fixed the test, new .travis.yml 
+
+  Change: da7459c69fd5a2bfbd8348465d3560b1ef3cbe65
+  Author: Torsten Raudssus <torsten@raudss.us>
+  Date : 2013-05-02 15:24:19 +0000
+
+    WIP 
 
   Change: 91caa408b5c7eda75cbad28d340b3d759c26491f
   Author: Torsten Raudssus <torsten@raudss.us>

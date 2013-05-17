@@ -3,7 +3,7 @@ BEGIN {
   $Escort::Web::AUTHORITY = 'cpan:GETTY';
 }
 {
-  $Escort::Web::VERSION = '0.002';
+  $Escort::Web::VERSION = '0.003';
 }
 # ABSTRACT: Web::Simple Web application for escort server
 
@@ -56,9 +56,7 @@ sub dispatch_request {
 }
 
 1;
-
 __END__
-
 =pod
 
 =head1 NAME
@@ -67,17 +65,18 @@ Escort::Web - Web::Simple Web application for escort server
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 AUTHOR
 
-Torsten Raudssus <torsten@raudss.us>
+Torsten Raudssus <torsten@raudss.us> L<https://raudss.us/>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is copyright (c) 2013 by Raudssus Social Software.
+This software is copyright (c) 2013 by L<Raudssus Social Software|https://raudss.us/>.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
+

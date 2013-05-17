@@ -17,6 +17,7 @@ lib/Escort/Cmd/Server.pm
 lib/Escort/Cmd/Surveyor.pm
 lib/Escort/Cmd/Sync.pm
 lib/Escort/Config.pm
+lib/Escort/SeatCmd.pm
 lib/Escort/Sync.pm
 lib/Escort/Sync/SSH.pm
 lib/Escort/Web.pm
